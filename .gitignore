@@ -1,0 +1,4 @@
+.idea
+*.app/*
+.DS_Store
+.sass-cache

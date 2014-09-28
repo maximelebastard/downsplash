@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-feedparser',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json Upsplash@ No description
+5 warn package.json Upsplash@ No repository field.
+6 warn package.json Upsplash@ No README data
+7 warn package.json fs@0.0.2 fs is also the name of a node core module.
+8 warn package.json fs@0.0.2 No description
+9 warn package.json fs@0.0.2 No repository field.
+10 warn package.json fs@0.0.2 No README data
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'node-feedparser', null ]
+13 verbose cache add name=undefined spec="node-feedparser" args=["node-feedparser",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'node-feedparser',
+14 verbose parsed url   path: 'node-feedparser',
+14 verbose parsed url   href: 'node-feedparser' }
+15 silly lockFile 951348a2-node-feedparser node-feedparser
+16 verbose lock node-feedparser /Users/maxime/.npm/951348a2-node-feedparser.lock
+17 silly lockFile 951348a2-node-feedparser node-feedparser
+18 silly lockFile 951348a2-node-feedparser node-feedparser
+19 verbose addNamed [ 'node-feedparser', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 7dac45d1-node-feedparser node-feedparser@
+22 verbose lock node-feedparser@ /Users/maxime/.npm/7dac45d1-node-feedparser.lock
+23 silly addNameRange { name: 'node-feedparser', range: '*', hasData: false }
+24 verbose request where is /node-feedparser
+25 verbose request registry https://registry.npmjs.org/
+26 verbose request id 8a9057c5445c252d
+27 verbose url raw /node-feedparser
+28 verbose url resolving [ 'https://registry.npmjs.org/', './node-feedparser' ]
+29 verbose url resolved https://registry.npmjs.org/node-feedparser
+30 verbose request where is https://registry.npmjs.org/node-feedparser
+31 info trying registry request attempt 1 at 20:21:21
+32 http GET https://registry.npmjs.org/node-feedparser
+33 http 404 https://registry.npmjs.org/node-feedparser
+34 verbose headers { date: 'Sun, 28 Sep 2014 18:21:23 GMT',
+34 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 verbose headers   'content-type': 'application/json',
+34 verbose headers   'cache-control': 'max-age=0',
+34 verbose headers   'content-length': '52',
+34 verbose headers   'accept-ranges': 'bytes',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   age: '0',
+34 verbose headers   'x-served-by': 'cache-fra1224-FRA',
+34 verbose headers   'x-cache': 'MISS',
+34 verbose headers   'x-cache-hits': '0',
+34 verbose headers   'x-timer': 'S1411928482.395671,VS0,VE730',
+34 verbose headers   'keep-alive': 'timeout=10, max=50',
+34 verbose headers   connection: 'Keep-Alive' }
+35 silly registry.get cb [ 404,
+35 silly registry.get   { date: 'Sun, 28 Sep 2014 18:21:23 GMT',
+35 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 silly registry.get     'content-type': 'application/json',
+35 silly registry.get     'cache-control': 'max-age=0',
+35 silly registry.get     'content-length': '52',
+35 silly registry.get     'accept-ranges': 'bytes',
+35 silly registry.get     via: '1.1 varnish',
+35 silly registry.get     age: '0',
+35 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+35 silly registry.get     'x-cache': 'MISS',
+35 silly registry.get     'x-cache-hits': '0',
+35 silly registry.get     'x-timer': 'S1411928482.395671,VS0,VE730',
+35 silly registry.get     'keep-alive': 'timeout=10, max=50',
+35 silly registry.get     connection: 'Keep-Alive' } ]
+36 silly lockFile 7dac45d1-node-feedparser node-feedparser@
+37 silly lockFile 7dac45d1-node-feedparser node-feedparser@
+38 error 404 404 Not Found: node-feedparser
+38 error 404
+38 error 404 'node-feedparser' is not in the npm registry.
+38 error 404 You should bug the author to publish it
+38 error 404 It was specified as a dependency of 'Upsplash'
+38 error 404
+38 error 404 Maybe try 'npm search feedparser'
+38 error 404
+38 error 404 Note that you can also install from a
+38 error 404 tarball, folder, or http url, or git url.
+39 error System Darwin 13.4.0
+40 error command "node" "/usr/local/bin/npm" "install" "node-feedparser" "--save"
+41 error cwd /Applications/MAMP/htdocs/unsplash
+42 error node -v v0.10.32
+43 error npm -v 1.4.28
+44 error code E404
+45 verbose exit [ 1, true ]

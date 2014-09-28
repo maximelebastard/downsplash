@@ -1,0 +1,21 @@
+{
+  "name": "DownSplash",
+  "main": "index.html",
+  "window": {
+    "show_in_taskbar": true,
+    "title": "DownSplash",
+    "icon": "img/icon.png",
+    "toolbar": true,
+    "height": 500,
+    "width": 500,
+    "frame": true,
+    "fullscreen": false,
+    "resizable": true
+  },
+  "dependencies": {
+    "MD5": "^1.2.1",
+    "feedparser": "^0.19.2",
+    "fs": "^0.0.2",
+    "request": "^2.44.0"
+  }
+}
